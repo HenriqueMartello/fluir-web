@@ -1,10 +1,12 @@
 import React from 'react';
 import '../../App.css';
 
+import Cards from '../Cards';
+
 function Services() {
   return (
     <>
-      <h2>Teste</h2>
+      <Cards />
     </>
   );
 }

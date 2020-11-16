@@ -1,13 +1,15 @@
 import React from 'react';
 import '../../App.css';
+
+// Componentes
 import HeroSection from '../HeroSection';
-import Cards from '../Cards';
+import Map from '../Map';
 
 function Home() {
   return (
     <>
       <HeroSection />
-      <Cards />
+      <Map />
     </>
   );
 }
